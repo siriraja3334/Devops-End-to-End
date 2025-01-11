@@ -1,0 +1,70 @@
+################# Jenkins Installation process ##################
+Step 1: Jenkins pre-requiresite is Java installation.[yum install java-17-amazon-corretto -y].
+Step 2: We can go jenkins webiste to copy the linux commands and execute them.
+Step 3: Now ready the jenkins setup.
+
+
+### What is Jenkins?
+Ans.Jenkins is a open-source automation server used for Continuos Integration(CI) & Continuos Delivery/Deployment(CD).
+    It automates the process od building, testing and deployment of software applications.
+
+### What are the key features of Jenkins?
+Ans.-Easy installation and configuration.
+    -Support for a wide range of plugins.
+    -Distributed builds.
+    -Easy integration with version control system.
+    -Pipeline as a code.
+
+### What is a Jenkins Pipeline?
+Ans.Jenkins pipeline is a set of plugins that allows users to create and integrate continuous delivery (CD) pipelines into Jenkins.
+
+### What is the difference between Declarative and Scripted Pipelines?
+Ans.Declarative Pipeline provides a more struched and simpler syntax for defining our pipeline.
+    Scripted Pipeline is more flexible and allows for complex scripting using Groovy Language.
+
+### What are plugins in Jenkins?
+Ans.Plugins are extensions that add functionalities and capabilities of Jenkins. 
+    To make it suitable for all user-specific needs like source code(git), build tools(maven) & testing frameworks.
+
+### What is the CI/CD Pipeline?
+Ans.Continuos Integration and Continuos Delivery/Deployment is a process to automate software applications tasks like Build,Test & Deploy.
+    -> CI focuses on the automatically testing and integrating code changes.
+    -> CD focuses on the complete release process.
+
+### What are build triggers in Jenkins?
+Ans.Jenkins build triggers allow for the automation of builds and deployments based on specific events or conditions.
+    
+### What is the Jenkins Mater-Slave aechitecture?
+Ans.In Jnekins, the master node is responsible for managing the build process,
+    Slave nodes(agents) are used to execute jobs.
+
+### What is a Jenkins Job?
+Ans.Jenkins job is a single task or set of tasks that Jenkins executes.
+    Jobs can be configured to perform various actions like building software,running tests or deploying applications.
+
+### What is the role of Jenkinsfile?
+Ans.Jenkinsfile is a text file written in "Groovy Syntax" that contains the defination of a Jenkins Pipeline.
+    It can be stored in the source code repository,allowing version control of the pipeline configuration.
+
+### What is the purpose of Webhook in Jenkins?
+Ans.Webhook is a way for an external system to trigger a jenkins job automstically.
+    It sends an HTTP POST request to jenkins when certain events occur, such as push to a version control system.
+
+### What are the stages in the Jenkins pipeline?
+Ans.Jenkins pipeline stages represent distinct phases or steps in a software delievery process such as Buid,Test & Deploy.
+    Each stage can contain scripted code that performs specific operations.
+    The stages are defined in a Jenkinsfile and executed on a Jenkins node. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
