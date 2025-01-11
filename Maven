@@ -1,5 +1,4 @@
-####### Maven Installation of Amazon Linux Process #######
-
+####### Maven Installation of Amazon Linux Process #
 Step 1: First install the java [yum install java-17-amazon-corretto -y].
 Step 2: Download the maven zip or tar file under the /opt directory. [cd /opt] & [wget file URL]
 Step 3: unzip the maven file and rename file [mv apache 3.9.6 maven], Go to [cd /maven].
